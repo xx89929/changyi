@@ -96,7 +96,7 @@ class CaseController extends Controller
         return Admin::form(CaseModel::class, function (Form $form) {
 
             $form->display('id', 'ID');
-            $form->image('case_img','案例图片')->uniqueName()->move('case');
+            $form->image('case_img','案例图片')->uniqueName()->move('case')->resize(360,360);
             $form->text('case_title','案例标题');
             $form->text('case_des','案例描述');
             $form->select('case_type','案例分类')->options(function(){
