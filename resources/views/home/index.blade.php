@@ -87,15 +87,15 @@
         <div class="fh5co-narrow-content animate-box">
             <div class="row" >
                 <div class="col-md-4 text-center">
-                    <span class="fh5co-counter js-counter" data-from="0" data-to="1130" data-speed="2000" data-refresh-interval="50"></span>
+                    <span class="fh5co-counter js-counter" data-from="0" data-to="1130" data-speed="5000" data-refresh-interval="50"></span>
                     <span class="fh5co-counter-label">海南交易量（笔）</span>
                 </div>
                 <div class="col-md-4 text-center">
-                    <span class="fh5co-counter js-counter" data-from="0" data-to="50015100" data-speed="2000" data-refresh-interval="50"></span>
+                    <span class="fh5co-counter js-counter" data-from="0" data-to="50015100" data-speed="5000" data-refresh-interval="50"></span>
                     <span class="fh5co-counter-label">海南交易金额（元）</span>
                 </div>
                 <div class="col-md-4 text-center">
-                    <span class="fh5co-counter js-counter" data-from="0" data-to="7497" data-speed="2000" data-refresh-interval="50"></span>
+                    <span class="fh5co-counter js-counter" data-from="0" data-to="7497" data-speed="5000" data-refresh-interval="50"></span>
                     <span class="fh5co-counter-label">海南成功案例（例）</span>
                 </div>
             </div>
