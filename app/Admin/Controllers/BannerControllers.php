@@ -92,7 +92,7 @@ class BannerControllers extends Controller
             $form->display('id', 'ID');
             $form->text('b_name','banner名称');
             $form->text('b_des','banner描述');
-            $form->image('b_img','banner图片')->help('宽高：557*300')->uniqueName()->move('banner');
+            $form->image('b_img','banner图片')->help('宽高：557*300')->uniqueName()->move('banner')->resize(360,350);
 
             $form->display('created_at', 'Created At');
             $form->display('updated_at', 'Updated At');

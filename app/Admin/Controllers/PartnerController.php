@@ -89,7 +89,7 @@ class PartnerController extends Controller
         return Admin::form(PartnerModel::class, function (Form $form) {
 
             $form->display('id', 'ID');
-            $form->image('partner_img','图片')->uniqueName()->move('partner');
+            $form->image('partner_img','图片')->uniqueName()->move('partner')->resize(360,350);
 
         });
     }
