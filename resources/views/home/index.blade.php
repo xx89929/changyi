@@ -12,204 +12,22 @@
             </div>
         </div>
     </div>
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
     <div id="fh5co-photos-section">
         <div class="container">
             <div id="ri-grid" class="ri-grid animate-box">
                 <img class="ri-loading-image" src="{{url('asset/images/loading.gif')}}"/>
                 <ul>
+                    @foreach($bannerCase as $bc)
                     <li>
                         <a href="#">
-                            <img src="{{url('asset/images/pic1.jpg')}}"/>
+                            <img src="{{$qshow.$bc->case_img}}"/>
                             <div class="desc">
-                                <h3>Album<br><span>129 Photos</span></h3>
+                                <h3>{{$bc->case_title}}<br/><span>{{$bc->case_des}}</span></h3>
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic2.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>129 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic3.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>129 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic4.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>129 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic5.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>129 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic6.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>128 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic7.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>127 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic8.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>126 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic9.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>125 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic10.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>124 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic11.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>123 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic12.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>122 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic13.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>121 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic14.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>120 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic15.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>129 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic16.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>128 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic17.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>127 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic18.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>126 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic19.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>125 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic20.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>124 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic21.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>123 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic22.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>122 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic23.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>121 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{url('asset/images/pic24.jpg')}}"/>
-                            <div class="desc">
-                                <h3>Album<br><span>121 Photos</span></h3>
-                            </div>
-                        </a>
-                    </li>
+                    @endforeach
+
                 </ul>
             </div>
         </div>
@@ -229,61 +47,31 @@
                     <ul class="list-unstyled">
                         <li class="index-case-title"><h3>案例展示</h3></li>
                         <li class="active"><a href="#home" data-toggle="tab">公司简介</a></li>
-                        <li><a href="#svn" data-toggle="tab">喷绘写真</a></li>
-                        <li><a href="#ios" data-toggle="tab">标识标牌</a></li>
+                        @foreach($caseType as $ct)
+                        <li><a href="#type{{$ct->id}}" data-toggle="tab">{{$ct->type_name}}</a></li>
+                        @endforeach
                     </ul>
                 </div>
 
                 <div class="tab-content index-case-show-content col-md-9 animate-box">
                     <div class="tab-pane fade in active" id="home">
-                        <p>海口长艺广告有限公司专业从事大中型户外广告制作、亮化工程、庆典活动及印刷制品等。公司一直本着"求真务实"的公司文化，立足客户市场，致力于成为国际旅游岛最具活力、成长性的广告制作及传媒的后起之秀。
-                            Haikou Changyi Advertising Co., Ltd. specializes in large and medium-sized outdoor advertising production, lighting engineering, celebration activities and printing products. The company has been committed to becoming the most dynamic and growing advertising producer and media star of the international tourism island based on the company culture of "seeking truth and pragmatism" and based on the customer market.</p>
+                        <div>{!! $contact->intro !!}</div>
                     </div>
-                    <div class="tab-pane fade" id="svn">
+                    @foreach($caseType as $ct)
+                    <div class="tab-pane fade" id="type{{$ct->id}}">
                         <div class="index-case-show-content-item">
                             <ul class="list-inline clearfix text-center ">
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
-                                <li class="col-md-3 ">
-                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
-                                </li>
+                                @foreach($case as $cs)
+                                    @if($cs->case_type == $ct->id)
+                                    <li class="col-md-3">
+                                        <img class="img-responsive" src="{{$qshow.$cs->case_img}}">
+                                    </li>
+                                    @endif
+                                @endforeach
                             </ul>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="ios">
-
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -299,15 +87,15 @@
         <div class="fh5co-narrow-content animate-box">
             <div class="row" >
                 <div class="col-md-4 text-center">
-                    <span class="fh5co-counter js-counter" data-from="0" data-to="1130" data-speed="5000" data-refresh-interval="50"></span>
+                    <span class="fh5co-counter js-counter" data-from="0" data-to="1130" data-speed="2000" data-refresh-interval="50"></span>
                     <span class="fh5co-counter-label">海南交易量（笔）</span>
                 </div>
                 <div class="col-md-4 text-center">
-                    <span class="fh5co-counter js-counter" data-from="0" data-to="50015100" data-speed="5000" data-refresh-interval="50"></span>
+                    <span class="fh5co-counter js-counter" data-from="0" data-to="50015100" data-speed="2000" data-refresh-interval="50"></span>
                     <span class="fh5co-counter-label">海南交易金额（元）</span>
                 </div>
                 <div class="col-md-4 text-center">
-                    <span class="fh5co-counter js-counter" data-from="0" data-to="7497" data-speed="5000" data-refresh-interval="50"></span>
+                    <span class="fh5co-counter js-counter" data-from="0" data-to="7497" data-speed="2000" data-refresh-interval="50"></span>
                     <span class="fh5co-counter-label">海南成功案例（例）</span>
                 </div>
             </div>
@@ -327,24 +115,11 @@
                 <div class="index-partner-row animate-box" id="index-partner-row">
                     <div id="index-partner-1">
                         <ul class="list-inline clearfix">
+                            @foreach($partner as $pn)
                             <li class="col-md-2">
-                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                                <img src="{{$qshow.$pn->partner_img}}" class="img-responsive" >
                             </li>
-                            <li class="col-md-2">
-                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
-                            </li>
-                            <li class="col-md-2">
-                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
-                            </li>
-                            <li class="col-md-2">
-                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
-                            </li>
-                            <li class="col-md-2">
-                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
-                            </li>
-                            <li class="col-md-2">
-                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
-                            </li>
+                            @endforeach
                         </ul>
                     </div>
                     <div id="index-partner-2">
@@ -353,7 +128,6 @@
 
             </div>
         </div>
-
     </div>
 </div>
 @endsection

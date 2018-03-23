@@ -30,10 +30,9 @@
                 <div class="col-md-4 animate-box">
                     <h3>联系我们</h3>
                     <ul class="contact-info">
-                        <li><i class="icon-location-pin"></i>长艺广告公司地址</li>
-                        <li><i class="icon-phone2"></i>0898-6656 6954</li>
-                        <li><i class="icon-mail"></i><a href="#">info@yoursite.com</a></li>
-                        <li><i class="icon-globe2"></i><a href="#">http://www.changyi.com.cn</a></li>
+                        <li><i class="icon-location-pin"></i>{{$contact->address}}</li>
+                        <li><i class="icon-phone2"></i>{{$contact->tel}}</li>
+                        <li><i class="icon-globe2"></i><a href="{{route('/')}}">http://www.changyi.com.cn</a></li>
                     </ul>
                 </div>
                 <div class="col-md-8 animate-box">

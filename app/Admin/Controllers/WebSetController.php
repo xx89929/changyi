@@ -77,9 +77,6 @@ class WebSetController extends Controller
             $grid->phone('联系手机');
             $grid->address('联系地址');
             $grid->tel('联系电话');
-            $grid->email('邮箱');
-
-
         });
     }
 
@@ -95,7 +92,7 @@ class WebSetController extends Controller
             $form->text('phone', '联系手机');
             $form->text('address', '联系地址');
             $form->text('tel', '联系电话');
-            $form->email('email', '邮箱');
+            $form->editor('intro', '公司简介');
 
         });
     }
