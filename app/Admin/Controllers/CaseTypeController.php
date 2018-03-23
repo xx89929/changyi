@@ -76,8 +76,6 @@ class CaseTypeController extends Controller
             $grid->id('ID')->sortable();
             $grid->type_name('案例分类名称');
 
-            $grid->created_at('创建时间');
-            $grid->updated_at('更新时间');
         });
     }
 
@@ -92,9 +90,6 @@ class CaseTypeController extends Controller
 
             $form->display('id', 'ID');
             $form->text('type_name','案例分类名称');
-
-            $form->display('created_at', 'Created At');
-            $form->display('updated_at', 'Updated At');
         });
     }
 }

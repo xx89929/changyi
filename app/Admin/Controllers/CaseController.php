@@ -76,6 +76,7 @@ class CaseController extends Controller
 
             $grid->id('ID')->sortable();
             $grid->case_title('案例名称');
+            $grid->case_des('案例描述');
             $grid->case_img('案例图片')->image('',50,50);
             $grid->snsCaseType()->type_name('案例分类');
             $grid->author('案例发布者');
@@ -95,8 +96,9 @@ class CaseController extends Controller
         return Admin::form(CaseModel::class, function (Form $form) {
 
             $form->display('id', 'ID');
-            $form->image('case_img','案例图片');
+            $form->image('case_img','案例图片')->uniqueName()->move('case');
             $form->text('case_title','案例标题');
+            $form->text('case_des','案例描述');
             $form->select('case_type','案例分类')->options(function(){
                 return CaseTypeModel::all()->pluck('type_name','id');
             });

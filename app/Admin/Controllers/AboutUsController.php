@@ -89,7 +89,7 @@ class AboutUsController extends Controller
         return Admin::form(AboutUsModel::class, function (Form $form) {
 
             $form->display('id', 'ID');
-            $form->image('about_img', '图片');
+            $form->image('about_img', '图片')->uniqueName()->move('about');
             $form->editor('about_content', '内容');
 
         });
