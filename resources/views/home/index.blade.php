@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <div class="fh5co-counters" style="background-image: url({{url('asset/images/hero.jpg')}});" data-stellar-background-ratio="0.5" id="counter-animate">
+    <div class="fh5co-counters" style="background-image: url({{url('asset/images/banner.jpg')}});" data-stellar-background-ratio="0.5" id="counter-animate">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center animate-box">
                 <div class="heading-section">
