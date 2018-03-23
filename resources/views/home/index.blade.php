@@ -217,33 +217,72 @@
     <div id="fh5co-services-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center animate-box ">
+                <div class="col-md-8 col-md-offset-2 text-center animate-box ">
                     <div class="heading-section">
-                        <h2>Our Services</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <h2>成功案例</h2>
+                        <p><span>海口长艺广告 <i class="icon-heart3"></i> 100%自有工厂 100%全市低价 100%满意付款 <a href="{{route('/')}}">尽在长艺</a></span></p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 text-center animate-box">
-                    <div class="services">
-                        <span><i class="icon-video-camera2"></i></span>
-                        <h3>Collect Video</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                    </div>
+                <div class="index-case-show-tab col-md-3 text-center animate-box">
+                    <ul class="list-unstyled">
+                        <li class="index-case-title"><h3>案例展示</h3></li>
+                        <li class="active"><a href="#home" data-toggle="tab">公司简介</a></li>
+                        <li><a href="#svn" data-toggle="tab">喷绘写真</a></li>
+                        <li><a href="#ios" data-toggle="tab">标识标牌</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                    <div class="services">
-                        <span><i class="icon-cloud-download"></i></span>
-                        <h3>Download Photos</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+
+                <div class="tab-content index-case-show-content col-md-9 animate-box">
+                    <div class="tab-pane fade in active" id="home">
+                        <p>海口长艺广告有限公司专业从事大中型户外广告制作、亮化工程、庆典活动及印刷制品等。公司一直本着"求真务实"的公司文化，立足客户市场，致力于成为国际旅游岛最具活力、成长性的广告制作及传媒的后起之秀。
+                            Haikou Changyi Advertising Co., Ltd. specializes in large and medium-sized outdoor advertising production, lighting engineering, celebration activities and printing products. The company has been committed to becoming the most dynamic and growing advertising producer and media star of the international tourism island based on the company culture of "seeking truth and pragmatism" and based on the customer market.</p>
                     </div>
-                </div>
-                <div class="col-md-4 text-center animate-box">
-                    <div class="services">
-                        <span><i class="icon-camera2"></i></span>
-                        <h3>Capture Photos</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                    <div class="tab-pane fade" id="svn">
+                        <div class="index-case-show-content-item">
+                            <ul class="list-inline clearfix text-center ">
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                                <li class="col-md-3 ">
+                                    <img class="img-responsive" src="{{url('asset/images/pic23.jpg')}}">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ios">
+
                     </div>
                 </div>
             </div>
@@ -274,6 +313,48 @@
             </div>
         </div>
     </div>
+    <div id="index-partner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center animate-box ">
+                    <div class="heading-section">
+                        <h2>合作伙伴</h2>
+                        <p><span>海口长艺广告 <i class="icon-heart3"></i> 100%自有工厂 100%全市低价 100%满意付款 <a href="{{route('/')}}">尽在长艺</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="index-partner-row animate-box" id="index-partner-row">
+                    <div id="index-partner-1">
+                        <ul class="list-inline clearfix">
+                            <li class="col-md-2">
+                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                            </li>
+                            <li class="col-md-2">
+                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                            </li>
+                            <li class="col-md-2">
+                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                            </li>
+                            <li class="col-md-2">
+                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                            </li>
+                            <li class="col-md-2">
+                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                            </li>
+                            <li class="col-md-2">
+                                <img src="{{url('asset/images/pic23.jpg')}}" class="img-responsive" >
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="index-partner-2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 </div>
 @endsection
 
@@ -296,5 +377,26 @@
             } );
 
         });
+    </script>
+
+    <script>
+        var speed=30
+        var demo = document.getElementById('index-partner-row');
+        var demo1 = document.getElementById('index-partner-1');
+        var demo2 = document.getElementById('index-partner-2');
+        demo2.innerHTML=demo1.innerHTML;
+        function Marquee(){
+            if(demo2.offsetHeight-demo.scrollTop<=0){
+
+                demo.scrollTop-=demo1.offsetHeight;
+            }
+            else{
+
+                demo.scrollTop++
+            }
+        }
+        var MyMar=setInterval(Marquee,speed)
+        demo.onmouseover=function() {clearInterval(MyMar)}
+        demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
     </script>
 @endsection

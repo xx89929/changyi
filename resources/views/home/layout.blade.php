@@ -40,6 +40,8 @@
 
     <link rel="stylesheet" href="{{url('asset/css/style.css')}}">
 
+    <link rel="stylesheet" href="{{url('asset/sass/qz.css')}}">
+
 
     <!-- Modernizr JS -->
     <script src="{{url('asset/js/modernizr-2.6.2.min.js')}}"></script>
