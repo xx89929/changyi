@@ -21,7 +21,7 @@
                     {{--</div>--}}
                     <h3 class="text-center">公司简历</h3>
                     <div class="desc">
-                        <div>{!! $aboutUs->about_content !!}</div>
+                        <div>{!! $aboutUs->intro !!}</div>
                         {{--<p class="fh5co-social-icon">--}}
                             {{--<a href="#"><i class="icon-twitter2"></i></a>--}}
                             {{--<a href="#"><i class="icon-facebook2"></i></a>--}}
