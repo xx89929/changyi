@@ -51,7 +51,7 @@
     </div>
     <div class="company-title">
         <h1>创海南广告行业领先品牌</h1>
-        <p>XXXX&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;XXXX&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;XXXX&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;XXXX</p>
+        <p>踏实做事 / 高效运作 / 卓越管理 / 精英团队</p>
     </div>
     <div class="header-right">
         <div class="header-right-img">
