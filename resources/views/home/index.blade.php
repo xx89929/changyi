@@ -70,37 +70,37 @@
             <li >
                 <a href="#">
                     <h2>长艺首页</h2>
-                    <p>Home</p>
+                    <p>Home Page</p>
                 </a>
             </li>
             <li >
                 <a href="#">
-                    <h2>长艺首页</h2>
-                    <p>Home</p>
+                    <h2>关于长艺</h2>
+                    <p>synopsis</p>
                 </a>
             </li>
             <li >
                 <a href="#">
-                    <h2>长艺首页</h2>
-                    <p>Home</p>
+                    <h2>成功案例</h2>
+                    <p>exhibition</p>
                 </a>
             </li>
             <li >
                 <a href="#">
-                    <h2>长艺首页</h2>
-                    <p>Home</p>
+                    <h2>相关文章</h2>
+                    <p>Journlism</p>
                 </a>
             </li>
             <li >
                 <a href="#">
-                    <h2>长艺首页</h2>
-                    <p>Home</p>
+                    <h2>人才招聘</h2>
+                    <p>recruit</p>
                 </a>
             </li>
             <li >
                 <a href="#">
-                    <h2>长艺首页</h2>
-                    <p>Home</p>
+                    <h2>联系我们</h2>
+                    <p>telephone</p>
                 </a>
             </li>
 
@@ -1388,9 +1388,9 @@
 
 <div class="Foot Top10" style="float: none; margin:0 auto;">
     <ul>
-        版权所有  ©   海南印象广告有限公司    办公地址：海口市海秀路北方大厦三层（狮子楼正对面）　服务热线：0898 - 66513317<br>
-        <a href="http://www.miitbeian.gov.cn/" target="_blank">琼ICP备11003130号</a><script src="http://s13.cnzz.com/stat.php?id=3745862&amp;web_id=3745862" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=3745862&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=3745862" target="_blank" title="站长统计">站长统计</a>   技术支持：
-        <a href="http://www.yixunsky.com" target="_blank">易讯天空</a>   建议浏览分辨率：1024 * 768   本站关键词：海南广告  海南印象广告  海南画册设计
+        版权所有  ©   海口长艺广告有限公司    办公地址：海南省海口市龙华区海垦路6号冶矿联大厦5楼　服务热线：0898-66566954<br>
+        技术支持：
+        <a href="www.qi-zhong.cn" target="_blank">海南企众实业有限公司</a>
     </ul>
 
     <div class="foot_jc">
