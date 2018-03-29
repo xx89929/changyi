@@ -1,0 +1,148 @@
+.banner_warp{
+  width: 1002px;
+  margin: 0 auto;
+  text-align: center;
+  padding:20px 0px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.banner_warp_div{
+  h1{
+    color: black;
+    span{
+      color: red;
+    }
+  }
+  p{
+    margin-top: 10px;
+    color: #999;
+    font-size: 18px;
+  }
+  width: 39%;
+  margin: 10px auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.spanse{
+  padding-bottom: 20px;
+  margin: 0px auto;
+  width: 50%;
+  border-bottom: 3px solid red;
+}
+
+.jianbian{
+  width: 1002px;
+  height: 20px;
+  margin: 0 auto;
+  background: linear-gradient(right, #ffffff, #8c8c8c,#ffffff );
+  background: -webkit-linear-gradient(right, #ffffff, #8c8c8c,#ffffff );
+}
+
+.bottom-img{
+  width: 1002px;
+  margin: 0 auto;
+}
+
+.logo-box{
+  float: left;
+  width: 35%;
+  border-right: 1px solid black;
+}
+
+.header-warp{
+  padding:40px 0;
+  display: table;
+  width: 1002px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.company-title{
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding-top: 16px;
+  h1{
+
+    color: blue;
+  }
+  p{
+
+    margin-top: 4px;
+    color: black;
+    font-size: 14px;
+
+  }
+}
+
+.header-right{
+  margin-left: 49px;
+  float: left;
+  width: 30%;
+  padding-top:16px;
+}
+
+.header-right-img{
+  margin-left: 28px;
+  float: left;
+  i{
+    color: #2361ec;
+    font-size: 54px;
+  }
+}
+
+.header-right-content{
+  float: left;
+  color: black;
+  margin-left: 10px;
+  p{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  h1{
+
+  }
+}
+
+.nav{
+  width: 100%;
+  background-color: blue;
+  padding:10px 0px;
+}
+
+.nav-box{
+
+  width: 1002px;
+  margin: 0 auto;
+  ul{
+
+    display: table;
+    width: 100%;
+    text-align: center;
+    li{
+      padding:5px 10px;
+      float: left;
+      width: 14.5%;
+      border-right: 1px solid white;
+      a{
+        color: white;
+        p{
+          color: white;
+        }
+        &:hover{
+          color: #e60212;
+          text-decoration: none;
+          p{
+            color: #e60212;
+          }
+        }
+      }
+
+      &:last-child{
+        border-right: 0px;
+      }
+    }
+  }
+}

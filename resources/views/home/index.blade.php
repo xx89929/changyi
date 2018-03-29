@@ -8,6 +8,8 @@
     <link href="http://www.changemedia.com.cn/css.css" rel="stylesheet" type="text/css" />
     <link href="http://www.hainanhecai.com/base/templates/css/common.css" rel="stylesheet" type="text/css" />
     <link href="http://www.hainanhecai.com/page/works/tyle/index.css" rel="stylesheet" type="text/css" />
+    <link href="{{url('css/style2.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{url('font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
     <script src="{{url('asset/js/jquery.min.js')}}"></script>
 
     <link href="http://www.hnyxgg.com/css/Style.css" rel="stylesheet">
@@ -42,52 +44,74 @@
     #scode img{ display:none; margin-top:10px;}
     #scode:hover img{ display:block; }
 </style>
-<div style="background:url(images/head_bg.jpg) repeat-x top;">
-    <table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-            <td><img src="http://www.changyi.com.cn/images/index_01.gif" width="200" height="104" alt="" /></td>
-            <td><table width="824" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="position:relative;">
-                            <div id="scode">
-                                官方微信<br />
-                                <img src="http://www.changyi.com.cn/images/qcode.jpg" />
-                            </div><img src="images/index_02.gif" alt="" width="824" height="33" border="0" usemap="#topp" /></td>
-                    </tr>
-                </table>
-                <table width="824" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td><div id="nav">
-                                <ul>
-                                    <li><a href="index.asp" class="frist">网站首页</a></li>
-                                    <li><a href="about.asp?id=5">关于前景</a>
-                                        <div id="subNav"><a href="about.asp?id=5">前景简介</a><a href="qywh.asp">企业文化</a><a href="about1.asp?id=7">前景荣誉</a><a href="aboutyp.asp">优屏简介</a></div>
-                                    </li>
-                                    <li><a href="news.asp">前景新闻</a>
-                                        <div id="subNav"><a href="news.asp">公司新闻</a><a href="mtbd.asp">媒介资讯</a><a href="qjqk.asp">前景期刊</a></div>
-                                    </li>
-                                    <li><a href="qjgj.asp">前景研究</a>
-                                        <div id="subNav"><a href="qjgj.asp">前景工具</a><a href="qjgd.asp">前景观点</a></div>
-                                    </li>
-                                    <li><a href="download.asp?id=38">资源专区</a>
-                                        <div id="subNav"><a href="download.asp?id=38">前景资源</a><a href="download.asp?id=39">江苏卫视</a><a href="download.asp?id=42">东方卫视</a><a href="download.asp?id=44">安徽卫视</a><a href="download.asp?id=45">山东卫视</a><a href="download.asp?id=46">重庆广电</a></div>
-                                    </li>
-                                    <li><a href="service.asp?id=8">前景服务</a>
-                                        <div id="subNav"><a href="service.asp?id=8">服务理念</a><a href="service.asp?id=8">服务范畴</a><a href="service.asp?id=16">服务案例</a></div>
-                                    </li>
-                                    <li><a href="jobs.asp">加入前景</a></li>
-                                    <li><a href="contact.asp">联系我们</a>
-                                        <div id="subNav"><a href="contact.asp">联系信息</a><a href="message.asp">留言反馈</a></div>
-                                    </li>
-                                    <div class="clear"></div>
-                                    <script type="text/javascript" src="http://www.changemedia.com.cn/menu.js"></script>
-                                </ul>
-                            </div></td>
-                    </tr>
-                </table></td>
-        </tr>
-    </table>
+
+<div class="header-warp">
+    <div class="logo-box">
+        <img src="{{url('asset/images/logo.png')}}">
+    </div>
+    <div class="company-title">
+        <h1>创海南广告行业领先品牌</h1>
+        <p>XXXX&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;XXXX&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;XXXX&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;XXXX</p>
+    </div>
+    <div class="header-right">
+        <div class="header-right-img">
+            <i class="fa fa-phone-square fa-big"></i>
+        </div>
+        <div class="header-right-content">
+            <p>服务热线</p>
+            <h1>0898-66566954</h1>
+        </div>
+    </div>
 </div>
+
+<div class="nav">
+    <div class="nav-box">
+        <ul>
+            <li >
+                <a href="#">
+                    <h2>长艺首页</h2>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <h2>长艺首页</h2>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <h2>长艺首页</h2>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <h2>长艺首页</h2>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <h2>长艺首页</h2>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <h2>长艺首页</h2>
+                    <p>Home</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+
+
+
 <div style="background:url(images/mid_bg.jpg) repeat-x top;">
     <table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
@@ -114,6 +138,141 @@
     </table>
 </div>
 
+
+
+
+{{--横幅--}}
+<div class="banner_warp">
+    <div class="banner_warp_div">
+        <h1>感谢以下企业对<span>长艺广告</span>的大力支持</h1>
+        <p>Company Support <a href="#">更多</a></p>
+        <div class="spanse"></div>
+    </div>
+
+{{--end横幅--}}
+
+{{--底部滚动--}}
+<div class="button-warp" style="width: 100%">
+    <div class="Gundong" style="width: 1002px;  margin: 0px auto; float: none;display: table;">
+        <div class="GundongPic">
+
+            <div class="Gundong_Left bg1" style="background-color: transparent;width: auto; ">
+                <dt><a href="javascript:void(0);" onmouseover="overMar(1);" onmouseout="outMar();">
+                        <img src="http://www.hnyxgg.com/images/Index_32.jpg" width="35" height="82"></a>
+                    <img src="http://www.hnyxgg.com/images/Index_33.jpg" width="84" height="82">
+                    <img src="http://www.hnyxgg.com/images/Index_34.jpg" width="19" height="82"></dt>
+            </div>
+
+            <div class="Gundong_Main">
+
+                <div id="demo" style="OVERFLOW: hidden;WIDTH:800px; height:80px;">
+                    <table>
+                        <tbody><tr>
+                            <td id="demo1">
+                                <div class="Gundong_Pic">
+                                    <ul>
+
+                                        <li><a href="pinpai_Show.Asp?id=181"><img src="http://www.hnyxgg.com/upload/2012191137825710.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=178"><img src="http://www.hnyxgg.com/upload/20121911342267598.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=177"><img src="http://www.hnyxgg.com/upload/20121911333310079.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=176"><img src="http://www.hnyxgg.com/upload/20121911321787274.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=174"><img src="http://www.hnyxgg.com/upload/2012191130187694.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=172"><img src="http://www.hnyxgg.com/upload/2012191127379251.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=165"><img src="http://www.hnyxgg.com/upload/20121911142317665.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=164"><img src="http://www.hnyxgg.com/upload/20121911161665715.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=163"><img src="http://www.hnyxgg.com/upload/2012191123769482.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=161"><img src="http://www.hnyxgg.com/upload/20121911213721045.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=160"><img src="http://www.hnyxgg.com/upload/20121911194977818.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=156"><img src="http://www.hnyxgg.com/upload/2012191118994071.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+                            <td id="demo2">
+                                <div class="Gundong_Pic">
+                                    <ul>
+
+                                        <li><a href="pinpai_Show.Asp?id=181"><img src="http://www.hnyxgg.com/upload/2012191137825710.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=178"><img src="http://www.hnyxgg.com/upload/20121911342267598.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=177"><img src="http://www.hnyxgg.com/upload/20121911333310079.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=176"><img src="http://www.hnyxgg.com/upload/20121911321787274.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=174"><img src="http://www.hnyxgg.com/upload/2012191130187694.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=172"><img src="http://www.hnyxgg.com/upload/2012191127379251.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=165"><img src="http://www.hnyxgg.com/upload/20121911142317665.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=164"><img src="http://www.hnyxgg.com/upload/20121911161665715.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=163"><img src="http://www.hnyxgg.com/upload/2012191123769482.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=161"><img src="http://www.hnyxgg.com/upload/20121911213721045.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=160"><img src="http://www.hnyxgg.com/upload/20121911194977818.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                        <li><a href="pinpai_Show.Asp?id=156"><img src="http://www.hnyxgg.com/upload/2012191118994071.jpg" width="127" height="71"></a></li>
+                                        <li class="bg_Line"></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody></table>
+
+                </div>
+            </div>
+
+            <div class="Gundong_Right">
+                <dt><a href="javascript:void(0);" onmouseover="overMar(0);" onmouseout="outMar();"><img src="http://www.hnyxgg.com/images/Index_41.jpg" width="28" height="82"></a></dt>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+{{--底部滚动end--}}
+
+<div class="jianbian">
+
+</div>
 
 {{--中间banner--}}
 <div id="pdv_18497" class="pdv_class" title="" style="width:1002px;height:146px;top:0px;left:0px; z-index:5">
@@ -1221,125 +1380,10 @@
 
 {{--中间end--}}
 
-
-{{--底部滚动--}}
-<div class="button-warp" style="width: 100%">
-<div class="Gundong" style="width: 1002px;  margin: 0px auto; float: none;display: table;">
-    <div class="GundongPic">
-
-        <div class="Gundong_Left bg1" style="background-color: transparent;width: auto; ">
-            <dt><a href="javascript:void(0);" onmouseover="overMar(1);" onmouseout="outMar();">
-                    <img src="http://www.hnyxgg.com/images/Index_32.jpg" width="35" height="82"></a>
-                <img src="http://www.hnyxgg.com/images/Index_33.jpg" width="84" height="82">
-                <img src="http://www.hnyxgg.com/images/Index_34.jpg" width="19" height="82"></dt>
-        </div>
-
-        <div class="Gundong_Main">
-
-            <div id="demo" style="OVERFLOW: hidden;WIDTH:800px; height:80px;">
-                <table>
-                    <tbody><tr>
-                        <td id="demo1">
-                            <div class="Gundong_Pic">
-                                <ul>
-
-                                    <li><a href="pinpai_Show.Asp?id=181"><img src="http://www.hnyxgg.com/upload/2012191137825710.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=178"><img src="http://www.hnyxgg.com/upload/20121911342267598.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=177"><img src="http://www.hnyxgg.com/upload/20121911333310079.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=176"><img src="http://www.hnyxgg.com/upload/20121911321787274.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=174"><img src="http://www.hnyxgg.com/upload/2012191130187694.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=172"><img src="http://www.hnyxgg.com/upload/2012191127379251.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=165"><img src="http://www.hnyxgg.com/upload/20121911142317665.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=164"><img src="http://www.hnyxgg.com/upload/20121911161665715.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=163"><img src="http://www.hnyxgg.com/upload/2012191123769482.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=161"><img src="http://www.hnyxgg.com/upload/20121911213721045.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=160"><img src="http://www.hnyxgg.com/upload/20121911194977818.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=156"><img src="http://www.hnyxgg.com/upload/2012191118994071.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                </ul>
-                            </div>
-                        </td>
-                        <td id="demo2">
-                            <div class="Gundong_Pic">
-                                <ul>
-
-                                    <li><a href="pinpai_Show.Asp?id=181"><img src="http://www.hnyxgg.com/upload/2012191137825710.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=178"><img src="http://www.hnyxgg.com/upload/20121911342267598.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=177"><img src="http://www.hnyxgg.com/upload/20121911333310079.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=176"><img src="http://www.hnyxgg.com/upload/20121911321787274.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=174"><img src="http://www.hnyxgg.com/upload/2012191130187694.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=172"><img src="http://www.hnyxgg.com/upload/2012191127379251.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=165"><img src="http://www.hnyxgg.com/upload/20121911142317665.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=164"><img src="http://www.hnyxgg.com/upload/20121911161665715.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=163"><img src="http://www.hnyxgg.com/upload/2012191123769482.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=161"><img src="http://www.hnyxgg.com/upload/20121911213721045.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=160"><img src="http://www.hnyxgg.com/upload/20121911194977818.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                    <li><a href="pinpai_Show.Asp?id=156"><img src="http://www.hnyxgg.com/upload/2012191118994071.jpg" width="127" height="71"></a></li>
-                                    <li class="bg_Line"></li>
-
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody></table>
-
-            </div>
-        </div>
-
-        <div class="Gundong_Right">
-            <dt><a href="javascript:void(0);" onmouseover="overMar(0);" onmouseout="outMar();"><img src="http://www.hnyxgg.com/images/Index_41.jpg" width="28" height="82"></a></dt>
-        </div>
-
-    </div>
-</div>
+<div class="bottom-img">
+    <img width="1002px" height="140px" src="{{url('images/bottom-img.jpg')}}">
 </div>
 
-{{--底部滚动end--}}
 
 
 <div class="Foot Top10" style="float: none; margin:0 auto;">
