@@ -55,6 +55,7 @@
   .company-title h1 {
     color: blue; }
   .company-title p {
+    font-weight: bold;
     margin-top: 4px;
     color: black;
     font-size: 14px; }
