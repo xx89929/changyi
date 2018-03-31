@@ -15,7 +15,7 @@ class IndexController extends BaseController
     public function index(){
         $caseType = CaseTypeModel::all();
         $case = CaseModel::all();
-        $bannerCase = $case->take(20)->all();
+        $bannerCase = $case->take(12)->all();
         $partner = PartnerModel::take(12)->get();
         $contact = WebSetModel::first();
         $this->pageTitle = 'index';

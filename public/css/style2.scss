@@ -11,6 +11,7 @@
   h1{
     color: black;
     span{
+      font-size: inherit;
       color: red;
     }
   }
@@ -34,7 +35,7 @@
 .jianbian{
   width: 1002px;
   height: 20px;
-  margin: 0 auto;
+  margin: 5px auto;
   background: linear-gradient(right, #ffffff, #8c8c8c,#ffffff );
   background: -webkit-linear-gradient(right, #ffffff, #8c8c8c,#ffffff );
 }
@@ -76,9 +77,8 @@
 }
 
 .header-right{
-  margin-left: 49px;
+  margin-left: 95px;
   float: left;
-  width: 30%;
   padding-top:16px;
 }
 
@@ -112,7 +112,6 @@
 }
 
 .nav-box{
-
   width: 1002px;
   margin: 0 auto;
   ul{
@@ -127,12 +126,19 @@
       border-right: 1px solid white;
       a{
         color: white;
+        h2{
+          color: white;
+        }
         p{
+          font-size: 13px;
           color: white;
         }
         &:hover{
           color: #e60212;
           text-decoration: none;
+          h2{
+            color: #e60212;
+          }
           p{
             color: #e60212;
           }
@@ -141,6 +147,99 @@
 
       &:last-child{
         border-right: 0px;
+      }
+    }
+  }
+}
+
+
+.qz-banner-warp{
+  ul{
+    li{
+      margin: 10px !important;
+      width: 183.8px !important;
+      height: 180px !important;
+    }
+  }
+}
+
+.index_cash_show{
+  display: table;
+}
+.index-cash-show-left{
+  width: 200px;
+  color: black;
+  float: left;
+}
+.index-cash-show-left-title{
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.index-cash-show-left-ul{
+  ul{
+    padding: 75px 0px 0px 8px;
+    li{
+      list-style-type: none;
+      width: 180px;
+      height: 30px;
+      margin: 0px 0px 1px 0px;
+      color: #333;
+      text-align: left;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: 30px;
+      font: 14px/30px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+    }
+    .active{
+      list-style-type: none;
+      width: 180px;
+      height: 30px;
+      margin: 0px 0px 1px 0px;
+      color: white;
+      text-align: left;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: 30px;
+      font: 14px/30px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+    }
+  }
+}
+
+.index-cash-show-right{
+  width: 802px;
+  float: left;
+  height: 378px;
+  overflow: hidden;
+}
+.index-cash-show-right-item{
+  padding:20px;
+  display: none;
+  ul{
+    display: table;
+
+    li{
+      margin-right: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      float: left;
+      img{
+        padding:2px;
+        border: 1px solid #ccc ;
+        width: 170px;
+        height: 146px;
+      }
+      h4{
+        margin: 5px 0px;
+        a{
+          color: #737272;
+          cursor: pointer;
+        }
       }
     }
   }

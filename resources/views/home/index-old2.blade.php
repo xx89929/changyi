@@ -135,8 +135,6 @@
 @section('js')
 
     <script type="text/javascript">
-        $(function() {
-
             $('#ri-grid').gridrotator( {
                 rows : 3,
                 // number of columns
@@ -149,8 +147,6 @@
                 preventClick : false,
                 interval:2000,
             } );
-
-        });
     </script>
 
     <script>
