@@ -300,7 +300,7 @@
                         @if($cs->case_type == $ct->id)
                         <li>
                             <img src="{{$qshow.$cs->case_img}}">
-                            <h4><a>{{$cs->case_title}}</a></h4>
+                            <h4><a>@if(empty($cs->case_title)) 未定义 @else {{$cs->case_title}} @endif</a></h4>
                         </li>
                         @endif
                     @endforeach

@@ -169,6 +169,7 @@
   overflow: hidden; }
 
 .index-cash-show-right-item {
+  height: 378px;
   padding: 20px;
   display: none; }
   .index-cash-show-right-item ul {
