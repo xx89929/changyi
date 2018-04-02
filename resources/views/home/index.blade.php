@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>海口长艺广告官方</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="http://www.changemedia.com.cn/css.css" rel="stylesheet" type="text/css" />
     <link href="http://www.hainanhecai.com/base/templates/css/common.css" rel="stylesheet" type="text/css" />
     <link href="{{url('css/style2.css')}}" rel="stylesheet" type="text/css" />
