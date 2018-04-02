@@ -125,7 +125,7 @@
 
 {{--横幅banner--}}
 
-<div style="width: 1019px; margin: 0 auto;" class="qz-banner-warp">
+<div style="width: 1007px; margin: 0 auto;" class="qz-banner-warp">
     <div id="ri-grid" class="ri-grid">
         <img class="ri-loading-image" src="{{url('asset/images/loading.gif')}}"/>
         <ul>
@@ -154,7 +154,7 @@
         <p>Company Support <a href="#">更多</a></p>
         <div class="spanse"></div>
     </div>
-
+</div>
 {{--end横幅--}}
 
 {{--底部滚动--}}
