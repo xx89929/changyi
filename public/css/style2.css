@@ -61,7 +61,9 @@ body {
   text-align: center;
   padding-top: 16px; }
   .company-title h1 {
-    color: blue; }
+    color: blue;
+    font-weight: bold;
+    font-size: 25px; }
   .company-title p {
     font-weight: bold;
     margin-top: 8px;
