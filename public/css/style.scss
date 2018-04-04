@@ -1,7 +1,5 @@
-@charset "UTF-8";
-$font-primary: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
-$font-secondary: "Microsoft YaHei","MicrosoftJhengHei",STHeiti,MingLiu;
-
+$font-primary: 'Roboto', Arial, serif;
+$font-secondary: 'Roboto Slab', Arial, sans-serif;
 // Overrides
 $grid-gutter-width: 40px !default; 
 $border-radius-base:  4px !default;
@@ -152,7 +150,6 @@ span{
 	font-size: 18px;
 	color: rgba($brand-lighter,.8);
 }
-
 
 h1, h2, h3, h4, h5, h6 {
 	color: rgba($brand-black,.8);

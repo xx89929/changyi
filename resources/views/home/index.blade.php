@@ -6,7 +6,7 @@
     <title>海口长艺广告官方</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="http://www.changemedia.com.cn/css.css" rel="stylesheet" type="text/css" />
-    <link href="http://www.hainanhecai.com/base/templates/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="{{url('css/common.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{url('css/style2.css')}}" rel="stylesheet" type="text/css" />
 
     <!-- Animate.css -->
@@ -19,7 +19,7 @@
     <!-- Magnifoc Popup  -->
     <link rel="stylesheet" href="{{url('asset/css/magnific-popup.css')}}">
 
-    <link rel="stylesheet" href="{{url('asset/css/style.css')}}">
+    <link rel="stylesheet" href="{{url('asset/sass/style.css')}}">
     <link rel="stylesheet" href="{{url('asset/sass/qz.css')}}">
 
 
@@ -34,7 +34,7 @@
 
     <link href="{{url('font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
 
-    <link href="http://www.hnyxgg.com/css/Style.css" rel="stylesheet">
+    <link href="{{url('css/Style.css')}}" rel="stylesheet">
     <style type="text/css">
         .index-cash-show-left-ul > ul > .active{
             background: url('http://www.hainanhecai.com/base/border/213/images/bar.gif') 0px 0px no-repeat !important;
@@ -125,7 +125,7 @@
 
 {{--横幅banner--}}
 
-<div style="width: 1007px; margin: 0 auto;" class="qz-banner-warp">
+<div style="width: 1007px; margin: 10 auto;" class="qz-banner-warp">
     <div id="ri-grid" class="ri-grid">
         <img class="ri-loading-image" src="{{url('asset/images/loading.gif')}}"/>
         <ul>
@@ -160,8 +160,7 @@
 <div class="index-partner-warp">
     <div class="index-partner-tit">
         <div class="index-partner-tit-t">
-            <p>Cooperation</p>
-            <h2>合作伙伴</h2>
+            <img src="{{url('images/partner_img.png')}}">
         </div>
     </div>
     <div class="carousel index-partner-cont" id="carousel-responsive">
@@ -431,7 +430,7 @@
 <script>
     var opts = {
             autoScroll : true,
-            autoScrollSpeed : 25000,
+            autoScrollSpeed : 15000,
         },
         responsiveCarousel = $('#carousel-responsive').floatingCarousel(opts);
 </script>
