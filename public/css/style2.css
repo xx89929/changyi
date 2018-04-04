@@ -58,7 +58,7 @@
     font-family: "Microsoft SimHei", Arial, sans-serif;
     color: blue; }
   .company-title p {
-    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-family: "Microsoft SimHei", Arial, sans-serif;
     font-weight: bold;
     margin-top: 4px;
     color: black;
@@ -197,5 +197,39 @@
         .index-cash-show-right-item ul li h4 a {
           color: #737272;
           cursor: pointer; }
+
+.index-partner-warp {
+  width: 1002px;
+  margin: 0 auto;
+  display: table; }
+
+.index-partner-tit {
+  float: left;
+  width: 202px;
+  margin: 10px 5px 10px 0; }
+  .index-partner-tit .index-partner-tit-t {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: #00006e; }
+    .index-partner-tit .index-partner-tit-t p {
+      color: white;
+      position: relative;
+      top: 60px; }
+    .index-partner-tit .index-partner-tit-t h2 {
+      color: white;
+      font-size: 30px;
+      position: relative;
+      top: 70px; }
+
+.index-partner-cont {
+  float: left;
+  width: 795px; }
+  .index-partner-cont ul li {
+    width: 200px;
+    height: 200px;
+    margin: 10px 5px; }
+    .index-partner-cont ul li img {
+      width: 100%; }
 
 /*# sourceMappingURL=style2.css.map */

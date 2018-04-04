@@ -256,3 +256,48 @@
     }
   }
 }
+
+
+.index-partner-warp{
+  width: 1002px;
+  margin: 0 auto;
+  display: table;
+}
+.index-partner-tit{
+  float: left;
+  width: 202px;
+  margin: 10px 5px 10px 0;
+  .index-partner-tit-t{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: #00006e;
+
+    p{
+      color: white;
+      position: relative;
+      top:60px;
+    }
+    h2{
+      color: white;
+      font-size: 30px;
+      position: relative;
+      top:70px;
+
+    }
+  }
+}
+.index-partner-cont{
+  float: left;
+  width: 795px;
+  ul{
+    li{
+      width: 200px;
+      height: 200px;
+      margin: 10px 5px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
