@@ -61,10 +61,11 @@ body{
 }
 
 .header-warp{
-  padding:40px 0;
+  padding:40px 0 20px;
   display: table;
   width: 1002px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
+  border-bottom: 1px dashed #999;
 }
 
 .company-title{
@@ -73,7 +74,7 @@ body{
   text-align: center;
   padding-top: 16px;
   h1{
-    color: blue;
+    color: red;
     font-weight: bold;
     font-size: 25px;
   }
@@ -87,7 +88,7 @@ body{
 }
 
 .header-right{
-  margin-left: 75px;
+  margin-left: 55px;
   float: left;
   padding-top:8px;
 }
@@ -112,6 +113,7 @@ body{
     font-size: 26px;
   }
   h1{
+    font-weight: bold;
     margin-top: 10px;
   }
 }
