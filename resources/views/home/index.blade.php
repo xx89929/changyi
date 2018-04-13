@@ -160,7 +160,7 @@
 <div class="index-partner-warp">
     <div class="index-partner-tit">
         <div class="index-partner-tit-t">
-            <img src="{{url('images/partner_img.png')}}">
+            <img src="{{url('images/partner_img.jpg')}}">
         </div>
     </div>
     <div class="carousel index-partner-cont" id="carousel-responsive">
@@ -300,7 +300,7 @@
 {{--中间--}}
 <div id="content" style="width: 1002px; margin: 0px auto;border: 1px dashed black;background-color: white">
     <div class="index_cash_show">
-        <div class="index-cash-show-left" style="background: url('http://www.hainanhecai.com/base/border/213/images/line.gif') 0px 0px no-repeat;">
+        <div class="index-cash-show-left" style="background: url({{asset('images/line.gif')}}) 0px 0px no-repeat;">
             <div class="index-cash-show-left-ul" id="index-cash-show-left-ul">
                 <ul>
                     @foreach($caseType as $ct)
