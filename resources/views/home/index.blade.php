@@ -100,8 +100,8 @@
             </li>
             <li >
                 <a href="#">
-                    <h2>相关文章</h2>
-                    <p>Journlism</p>
+                    <h2>合作伙伴</h2>
+                    <p>partner</p>
                 </a>
             </li>
             <li >
