@@ -13,12 +13,12 @@ use App\Http\Controllers\Controller;
 class IndexController extends BaseController
 {
     public function index(){
+
+        $partner = PartnerModel::all();
+        $contact = WebSetModel::first();
         $caseType = CaseTypeModel::all();
         $case = CaseModel::all();
-        $bannerCase = $case->take(12)->all();
-        $partner = PartnerModel::take(12)->get();
-        $contact = WebSetModel::first();
         $this->pageTitle = 'index';
-        return view('home.index',['pageTitle' => $this->pageTitle,'bannerCase' => $bannerCase,'caseType' => $caseType,'case' => $case,'partner' => $partner,'contact' => $contact]);
+        return view('home.index',['pageTitle' => $this->pageTitle,'caseType' => $caseType,'case' => $case,'partner' => $partner,'contact' => $contact]);
     }
 }
