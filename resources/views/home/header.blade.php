@@ -33,25 +33,25 @@
                 </a>
             </li>
             <li >
-                <a href="#">
+                <a href="{{route('case')}}">
                     <h2>成功案例</h2>
                     <p>exhibition</p>
                 </a>
             </li>
             <li >
-                <a href="#">
+                <a href="{{route('partner')}}">
                     <h2>合作伙伴</h2>
                     <p>partner</p>
                 </a>
             </li>
             <li >
-                <a href="#">
+                <a href="{{route('jobs')}}">
                     <h2>人才招聘</h2>
                     <p>recruit</p>
                 </a>
             </li>
             <li >
-                <a href="#">
+                <a href="{{route('contact')}}">
                     <h2>联系我们</h2>
                     <p>telephone</p>
                 </a>

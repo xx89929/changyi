@@ -1,0 +1,160 @@
+.about_warp{
+
+	width: 1002px;
+	margin: 0 auto;
+	display:table;
+}
+
+.shangbuk{
+	width: 250px;
+	float: left;
+}
+.shangbu {
+	border:1px solid gray;
+	border-right: 0;
+	background-color:#DCDCDC;
+	padding-left: 5px;
+	border-left: 0;
+	line-height: 32px;
+}
+.shangbu p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.shangbu  span {
+	font-size: 14px;
+	color: #f00;
+	font-weight: bold;
+}
+.shangbu ul  {
+	margin-bottom: 14px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	background-color:#FFFFFF;
+	width: 90%;
+}
+
+.shangbu ul li {
+	font-size: 14px;
+	padding-left:30%;
+}
+
+.zhongbu  {
+	font-size: 14px;
+	background-color:#dedede;
+	height: 31px;
+}
+.zhongbu1 {
+	height: 31px;
+	padding-left:5px;
+}
+.zhongbu1 span{
+	height: 31px;
+	font-size: 14px;
+	color:#ffffff;
+	line-height: 31px;
+	font-weight: bold;
+} 
+.qiyejianjie {
+	text-align: center;
+	margin: 20px 0 ;
+}
+.qiyejianjie_a{
+	text-align: center;
+	width: 230px;
+	background-color: #ccc;
+	border-radius: 5px ;
+	line-height: 29px;
+	font-size: 14px;
+	color: black; 
+	padding:5px 88px;
+} 
+.qiyejianjie_a:hover {
+	background-color: red;
+	color: #fff !important; 
+	cursor: pointer;
+}
+.youbu {
+	border-left: 1px solid #999;
+	width: 750px;
+	float: right;
+	min-height: 680px;
+}
+.shangm {
+	border:1px solid gray;
+	padding-left: 10px;
+	background-color:#DCDCDC;
+	border-left:0;
+	border-right:0;
+}
+.shangm p {
+	color:#0075c1;
+	font-size:14px;
+	font-weight: bold;
+	line-height: 32px;
+}
+.xiam {
+	padding-left: 10px;
+	padding-top: 9px;
+	overflow-y:auto;
+}
+
+.xiabu{
+	margin-top:24px;
+	padding:10px;
+}
+.xiabu h4 {
+	font-size: 13px;
+}
+.chanpinzhanshi ul li {
+	width: 180px;
+	border:1px solid gray;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	padding:0px 10px;
+}
+.chanpinzhanshi ul li > i{
+	line-height: 30px;
+}
+.chanpinzhanshi ul li > i:first-child{
+	float: left;
+	color: red;
+}
+
+.chanpinzhanshi ul li > i:last-child{
+	float: right;
+	color: #FF6666;
+}
+.chanpinzhanshi ul li a{
+	padding: 0 5px;
+	line-height: 30px;
+}
+.tup ul {
+	margin-top: 10px;
+	margin-left: 10px;
+	display:table;
+}
+.tup ul li {
+	float: left;
+	width: 165px;
+	height: 150px;
+	margin: 5px;
+}
+.tup ul li p {
+	text-align: center;
+	font-size: 12px;
+}
+.tup1 ul {
+	margin-top: 10px;
+	margin-left: 10px;
+	display:table;
+}
+.tup1 ul li {
+	float: left;
+	width: 165px;
+	height: 140px;
+	margin: 5px;
+}

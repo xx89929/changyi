@@ -8,6 +8,7 @@
     <link href="http://www.changemedia.com.cn/css.css" rel="stylesheet" type="text/css" />
     <link href="{{url('css/common.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{url('css/style2.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{url('css/chenhang_css.css')}}" rel="stylesheet" type="text/css" />
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="{{url('asset/css/animate.css')}}">
