@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\Models\WebSetModel;
+use App\Models\JobsModel;
 
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -11,7 +11,7 @@ use Encore\Admin\Layout\Content;
 use App\Http\Controllers\Controller;
 use Encore\Admin\Controllers\ModelForm;
 
-class WebSetController extends Controller
+class JobsController extends Controller
 {
     use ModelForm;
 
@@ -24,7 +24,7 @@ class WebSetController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('关于长艺');
+            $content->header('人才招聘');
             $content->description('管理');
 
             $content->body($this->grid());
@@ -41,7 +41,7 @@ class WebSetController extends Controller
     {
         return Admin::content(function (Content $content) use ($id) {
 
-            $content->header('关于长艺');
+            $content->header('人才招聘');
             $content->description('修改');
 
             $content->body($this->form()->edit($id));
@@ -57,7 +57,7 @@ class WebSetController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('关于长艺');
+            $content->header('人才招聘');
             $content->description('创建');
 
             $content->body($this->form());
@@ -71,12 +71,12 @@ class WebSetController extends Controller
      */
     protected function grid()
     {
-        return Admin::grid(WebSetModel::class, function (Grid $grid) {
+        return Admin::grid(JobsModel::class, function (Grid $grid) {
 
             $grid->id('ID')->sortable();
-            $grid->phone('联系手机');
-            $grid->address('联系地址');
-            $grid->tel('联系电话');
+            $grid->content('内容')->editable('textarea');
+            $grid->created_at();
+            $grid->updated_at();
         });
     }
 
@@ -87,13 +87,13 @@ class WebSetController extends Controller
      */
     protected function form()
     {
-        return Admin::form(WebSetModel::class, function (Form $form) {
-            $form->display('id', 'ID');
-            $form->text('phone', '联系手机');
-            $form->text('address', '联系地址');
-            $form->text('tel', '联系电话');
-            $form->editor('intro', '公司简介');
+        return Admin::form(JobsModel::class, function (Form $form) {
 
+            $form->display('id', 'ID');
+            $form->editor('content','内容');
+
+            $form->display('created_at', 'Created At');
+            $form->display('updated_at', 'Updated At');
         });
     }
 }

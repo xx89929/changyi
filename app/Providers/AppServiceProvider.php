@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\CaseModel;
 use App\Models\CaseTypeModel;
+use App\Models\WebSetModel;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -24,6 +25,9 @@ class AppServiceProvider extends ServiceProvider
         $case = CaseModel::all();
         $bannerCase = $case->take(12)->all();
         View::share('bannerCase' , $bannerCase);
+
+        $webSet = WebSetModel::first();
+        View::share('webset' , $webSet);
 
     }
 

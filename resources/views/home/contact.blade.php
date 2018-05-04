@@ -17,13 +17,10 @@
 		</div>
 		<div class=xiabu>
 			<h4>
-				电话：0898-66566954<br/>
-				传真：321654312<br/>
+				电话：{{$webset->tel}}<br/>
 				联系人：李先生<br/>
-				手机：312321321<br/>
-				E-mail:876958335@qq.com<br/>
-				展示地址：海南，海口。<br/>
-				工厂地址：海南，海口。<br/>
+				手机：{{$webset->phone}}<br/>
+				公司地址：{{$webset->address}}
 			</h4>
 		</div>
 	</div>
@@ -34,7 +31,7 @@
 		</div>
 		<div class="xiam">
 			<div class="lianxi">
-				
+				{!! $contact->content !!}
 			</div>
 
 		</div>

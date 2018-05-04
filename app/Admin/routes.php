@@ -14,8 +14,10 @@ Route::group([
     $router->resource('case','CaseController');
     $router->resource('case_type','CaseTypeController');
     $router->resource('banner/set','BannerControllers');
-    $router->resource('about/set','AboutUsController');
+    $router->resource('about/set','WebSetController');
     $router->resource('partner/set','PartnerController');
     $router->resource('contact/set','WebSetController');
+    $router->resource('jobs/set','JobsController');
+    $router->resource('contact/set','ContactController');
 
 });
