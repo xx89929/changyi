@@ -41,7 +41,11 @@
             <div class="index-cash-show-left-ul" id="index-cash-show-left-ul">
                 <ul>
                     @foreach($caseType as $ct)
-                    <li style="background: url('http://www.hainanhecai.com/base/border/213/images/bar.gif') 0px -35px no-repeat;">{{$ct->type_name}}</li>
+                    <li style="background: url('http://www.hainanhecai.com/base/border/213/images/bar.gif') 0px -35px no-repeat;">
+                        <a href="{{route('case',['case_type' => $ct->id])}}">
+                            {{$ct->type_name}}
+                        </a>
+                    </li>
                     @endforeach
                 </ul>
             </div>
