@@ -20,4 +20,9 @@ class CaseController extends BaseController
         $this->pageTitle = 'case';
         return view('home.case',['pageTitle' => $this->pageTitle,'case' => $case,'caseType' => $caseType]);
     }
+
+
+    public function info_view(Request $request){
+        return view('home.case-info');
+    }
 }

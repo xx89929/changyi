@@ -19,6 +19,7 @@
 Route::namespace('Home')->group(function (){
     Route::get('/','IndexController@index')->name('/');
     Route::get('case','CaseController@index')->name('case');
+    Route::get('case_info','CaseController@info_view')->name('case.info');
     Route::get('contact','ContactController@index')->name('contact');
     Route::get('partner','PartnerController@index')->name('partner');
     Route::get('about','AboutController@index')->name('about');
