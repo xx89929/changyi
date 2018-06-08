@@ -1,4 +1,5 @@
 @extends('home.base')
+@extends('home.base')
 @section('content')
 <div class="about_warp">
 	<div class="shangbuk ">
@@ -39,7 +40,7 @@
 			<div class="tup" >
 					<ul>
 						@foreach($case as $ca)
-							<li><img style="width:100%;height:150px;" src="{{$qshow.$ca->case_img}}">
+							<li><img style="width:100%;height:350px;" src="{{$qshow.$ca->case_img}}">
 								<p><a href="" class="asd">{{$ca->case_title}} </a></p>
 							</li>
 						@endforeach

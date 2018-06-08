@@ -1,12 +1,12 @@
 .about_warp{
 
-	width: 1002px;
+	width: 90%;
 	margin: 0 auto;
 	display:table;
 }
 
 .shangbuk{
-	width: 250px;
+	width: 429px;
 	float: left;
 }
 .shangbu {
@@ -76,7 +76,7 @@
 }
 .youbu {
 	border-left: 1px solid #999;
-	width: 750px;
+	width: 1280px;
 	float: right;
 	min-height: 680px;
 }
@@ -108,14 +108,14 @@
 	font-size: 13px;
 }
 .chanpinzhanshi ul li {
-	width: 180px;
+	width: 270px;
 	border:1px solid gray;
 	height: 30px;
 	margin: 0 auto;
 	margin-top: 10px;
 	font-weight: bold;
-	font-size: 14px;
-	padding:0px 10px;
+	font-size: 24px;
+	padding:4px 10px;
 }
 .chanpinzhanshi ul li > i{
 	line-height: 30px;
@@ -140,9 +140,8 @@
 }
 .tup ul li {
 	float: left;
-	width: 165px;
+	width: 404px;
 	margin: 5px;
-	height: 170px;
 }
 .tup ul li p {
 	text-align: center;

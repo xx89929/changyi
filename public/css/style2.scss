@@ -4,7 +4,7 @@ body{
   font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
 .banner_warp{
-  width: 1002px;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   padding:20px 0px;
@@ -13,7 +13,9 @@ body{
 }
 
 .banner_warp_div{
+
   h1{
+
     font-size: 37px;
     color: black;
     span{
@@ -34,6 +36,7 @@ body{
   border-bottom: 1px solid #ddd;
 }
 
+
 .spanse{
   padding-bottom: 20px;
   margin: 0px auto;
@@ -42,7 +45,7 @@ body{
 }
 
 .jianbian{
-  width: 1002px;
+  width: 90%;
   height: 20px;
   margin: 5px auto;
   background: linear-gradient(right, #ffffff, #8c8c8c,#ffffff );
@@ -50,13 +53,14 @@ body{
 }
 
 .bottom-img{
-  width: 1002px;
+  width: 90%;
   margin: 10px auto;
 }
 
 .logo-box{
   float: left;
-  width: 35%;
+  width: 21%;
+  margin: 0px 0px 0px 80px;
   border-right: 1px solid black;
   img{
     width: 339px;
@@ -65,15 +69,15 @@ body{
 }
 
 .header-warp{
-  padding:40px 0 20px;
+  padding:10px 0 2px;
   display: table;
-  width: 1002px;
-  margin: 0 auto 20px;
+  width: 90%;
+  margin: 0 auto 10px;
   border-bottom: 1px dashed #999;
 }
 
 .company-title{
-  width: 30%;
+  width: 21%;
   float: left;
   text-align: center;
   padding-top: 16px;
@@ -92,7 +96,7 @@ body{
 }
 
 .header-right{
-  margin-left: 55px;
+  margin-left: 477px;
   float: left;
   padding-top:8px;
 }
@@ -123,14 +127,13 @@ body{
 }
 
 .nav{
-  width: 1002px;
+  width: 90%;
   margin: 0 auto;
-  background-color: #00006e;
-  padding:10px 0px;
+  padding:0px 0px;
 }
 
 .nav-box{
-  width: 1002px;
+  width: 90%px;
   margin: 0 auto;
   ul{
 
@@ -140,24 +143,24 @@ body{
     li{
       padding:5px 10px;
       float: left;
-      width: 14.5%;
-      border-right: 1px solid white;
-      a{
+      width: 12.5%;
+      border-right: 1px solid black;
+      a {
         color: white;
-        h2{
-          color: white;
+        h2 {
+
         }
-        p{
+        p {
           font-size: 13px;
           color: white;
         }
-        &:hover{
+        &:hover {
           color: #e60212;
           text-decoration: none;
-          h2{
+          h2 {
             color: #e60212;
           }
-          p{
+          p {
             color: #e60212;
           }
         }
@@ -210,7 +213,7 @@ body{
       list-style-type: none;
       width: 180px;
       height: 30px;
-      margin: 0px 0px 1px 0px;
+      margin: 0px 0px 30px 0px;
       color: #333;
       text-align: left;
       padding-left: 28px;
@@ -222,7 +225,7 @@ body{
       list-style-type: none;
       width: 180px;
       height: 30px;
-      margin: 0px 0px 1px 0px;
+      margin: 0px 0px 30px 0px;
       color: white;
       text-align: left;
       padding-left: 28px;
@@ -234,9 +237,9 @@ body{
 }
 
 .index-cash-show-right{
-  width: 802px;
+  width: 88%;
   float: left;
-  height: 378px;
+  height: 720px;
   overflow: hidden;
 }
 .index-cash-show-right-item{
@@ -254,8 +257,8 @@ body{
       img{
         padding:2px;
         border: 1px solid #ccc ;
-        width: 170px;
-        height: 146px;
+        width: 472px;
+        height: 340px;
       }
       h4{
         margin: 5px 0px;
@@ -270,7 +273,7 @@ body{
 
 
 .index-partner-warp{
-  width: 1002px;
+  width: 90%;
   margin: 0 auto;
   display: table;
 }
@@ -305,7 +308,7 @@ body{
 
 .index-partner-cont{
   float: left;
-  width: 847px;
+  width: 1550px;
   ul{
     li{
       width: 150px;

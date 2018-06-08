@@ -23,37 +23,36 @@
             <li >
                 <a href="{{route('/')}}">
                     <h2>长艺首页</h2>
-                    <p>Home Page</p>
                 </a>
             </li>
             <li >
                 <a href="{{route('about')}}">
                     <h2>关于长艺</h2>
-                    <p>synopsis</p>
                 </a>
             </li>
             <li >
                 <a href="{{route('case')}}">
                     <h2>成功案例</h2>
-                    <p>exhibition</p>
                 </a>
             </li>
             <li >
                 <a href="{{route('partner')}}">
                     <h2>合作伙伴</h2>
-                    <p>partner</p>
                 </a>
             </li>
             <li >
                 <a href="{{route('jobs')}}">
                     <h2>人才招聘</h2>
-                    <p>recruit</p>
+                </a>
+            </li>
+            <li >
+                <a href="{{route('jobs')}}">
+                    <h2>新闻中心</h2>
                 </a>
             </li>
             <li >
                 <a href="{{route('contact')}}">
                     <h2>联系我们</h2>
-                    <p>telephone</p>
                 </a>
             </li>
 
