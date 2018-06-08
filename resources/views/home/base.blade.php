@@ -66,17 +66,19 @@
 <script type="text/javascript" src="{{url('js/floatingcarousel.min.js')}}"></script>
 <!-- gridrotator -->
 <script type="text/javascript" src="{{url('asset/js/jquery.gridrotator.js')}}"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#ri-grid').gridrotator( {
-            rows : 3,
-            // number of columns
-            columns : 6,
-            w1024 : { rows : 2, columns : 5 },
-            preventClick : false,
-            interval:2000,
-        } );
-    })
+<script src="{{url('asset/js/wySilder.min.js')}}" type="text/javascript"></script>
+<script>
+    $(function (){
+        $(".js-silder").silder({
+            auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
+            speed: 20,//轮播图运动速度
+            sideCtrl: true,//是否需要侧边控制按钮
+            bottomCtrl: true,//是否需要底部控制按钮
+            defaultView: 0,//默认显示的索引
+            interval: 3000,//自动轮播的时间，以毫秒为单位，默认3000毫秒
+            activeClass: "active",//小的控制按钮激活的样式，不包括作用两边，默认active
+        });
+    });
 </script>
 @yield('jss')
 </body>

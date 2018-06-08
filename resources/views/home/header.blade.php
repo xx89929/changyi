@@ -64,21 +64,37 @@
 
 {{--横幅banner--}}
 
-<div style="width: 1007px; margin: 10 auto;" class="qz-banner-warp">
-    <div id="ri-grid" class="ri-grid">
-        <img class="ri-loading-image" src="{{url('asset/images/loading.gif')}}"/>
-        <ul>
-            @foreach($bannerCase as $bc)
-                <li>
-                    <a href="#">
-                        <img src="{{$qshow.$bc->case_img}}"/>
-                        <div class="desc">
-                            <h3>{{$bc->case_title}}<br/><span>{{$bc->case_des}}</span></h3>
-                        </div>
-                    </a>
-                </li>
-            @endforeach
+{{--<div style="width: 1007px; margin: 10 auto;" class="qz-banner-warp">--}}
+    {{--<div id="ri-grid" class="ri-grid">--}}
+        {{--<img class="ri-loading-image" src="{{url('asset/images/loading.gif')}}"/>--}}
+        {{--<ul>--}}
+            {{--@foreach($bannerCase as $bc)--}}
+                {{--<li>--}}
+                    {{--<a href="#">--}}
+                        {{--<img src="{{$qshow.$bc->case_img}}"/>--}}
+                        {{--<div class="desc">--}}
+                            {{--<h3>{{$bc->case_title}}<br/><span>{{$bc->case_des}}</span></h3>--}}
+                        {{--</div>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
+            {{--@endforeach--}}
 
-        </ul>
+        {{--</ul>--}}
+    {{--</div>--}}
+{{--</div>--}}
+
+<div class="js-silder"  style="margin-top: 20px;">
+    <div class="silder-scroll" style="height: 800px;">
+        <div class="silder-main">
+            <div class="silder-main-img">
+                <img src="{{url('asset/images/pic1.jpg')}}" alt="">
+            </div>
+            <div class="silder-main-img">
+                <img src="{{url('asset/images/pic2.jpg')}}" alt="">
+            </div>
+            <div class="silder-main-img">
+                <img src="{{url('asset/images/pic3.jpg')}}" alt="">
+            </div>
+        </div>
     </div>
 </div>

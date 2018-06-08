@@ -1,5 +1,4 @@
 @extends('home.base')
-@extends('home.base')
 @section('content')
 <div class="about_warp">
 	<div class="shangbuk ">
@@ -21,6 +20,7 @@
 			<div class="zhongbu1" style="background: url('{{asset("images/index_28.gif")}}') no-repeat;">
 				<span>联系我们<span>
 			</div>
+
 		</div>
 		<div class=xiabu>
 			<h4>
