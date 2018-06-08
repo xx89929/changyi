@@ -43,7 +43,7 @@
     </style>
     <style type="text/css">
         .clear{ clear:both;}
-        body,div,ul,li{ margin:0px; padding:0px; font-size:12px;background-color: white}
+        body{ margin:0px; padding:0px; font-size:12px;background-color: white}
         ul,li{ list-style:none;}
         #nav{background:url(images/index_03.gif) no-repeat; width:824px; height:71px;}
         #nav li{ float:left; overflow:hidden; position:relative;}
