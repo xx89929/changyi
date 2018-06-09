@@ -1,12 +1,12 @@
 .about_warp{
 
-	width: 1710px;
+	width: 90%;
 	margin: 0 auto;
 	display:table;
 }
 
 .shangbuk{
-	width: 429px;
+	width: 25.9%;
 	float: left;
 }
 .shangbu {
@@ -65,8 +65,8 @@
 	border-radius: 5px ;
 	line-height: 29px;
 	font-size: 14px;
-	color: black; 
-	padding:10px 156px;
+	color: black;
+	padding:10px 40%;
 } 
 .qiyejianjie_a:hover {
 	background-color: red;
@@ -75,7 +75,7 @@
 }
 .youbu {
 	border-left: 1px solid #999;
-	width: 1280px;
+	width: 74%;
 	float: right;
 	min-height: 680px;
 }
@@ -112,7 +112,7 @@
 }
 
 .chanpinzhanshi ul li {
-	width: 397px;
+	width: 90%;
 	border:1px solid gray;
 	height: 25px;
 	margin: 0 auto;
@@ -148,7 +148,7 @@
 }
 .tup ul li {
 	float: left;
-	width: 404px;
+	width: 32%;
 	margin: 5px;
 }
 .tup ul li p {
@@ -162,7 +162,7 @@
 }
 .tup1 ul li {
 	float: left;
-	width: 165px;
+	width: 13%;
 	margin: 5px;
 }
 
