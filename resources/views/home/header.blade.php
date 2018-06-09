@@ -83,8 +83,8 @@
     {{--</div>--}}
 {{--</div>--}}
 
-<div class="js-silder"  style="margin-top: 20px;">
-    <div class="silder-scroll" style="height: 800px;">
+<div class="js-silder">
+    <div class="silder-scroll" >
         <div class="silder-main">
             <div class="silder-main-img">
                 <img src="{{url('asset/images/pic1.jpg')}}" alt="">

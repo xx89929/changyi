@@ -3,6 +3,11 @@
 body{
   font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
+
+.changyi-index{
+  min-width: 1440px;
+}
+
 .banner_warp{
   width: 90%;
   margin: 0 auto;
@@ -53,7 +58,7 @@ body{
 }
 
 .bottom-img{
-  width: 90%;
+  width: 100%;
   margin: 10px auto;
 }
 
@@ -63,7 +68,7 @@ body{
   margin: 0px 0px 0px 80px;
   border-right: 1px solid black;
   img{
-    width: 339px;
+    width: 90%;
     height: 74px;
   }
 }
@@ -77,10 +82,10 @@ body{
 }
 
 .company-title{
-  width: 21%;
+  width: 30%;
   float: left;
-  text-align: center;
   padding-top: 16px;
+  margin-left: 2%;
   h1{
     color: red;
     font-weight: bold;
@@ -96,7 +101,7 @@ body{
 }
 
 .header-right{
-  margin-left: 477px;
+  margin-left: 17%;
   float: left;
   padding-top:8px;
 }
@@ -133,7 +138,7 @@ body{
 }
 
 .nav-box{
-  width: 90%px;
+  width: 100%;
   margin: 0 auto;
   ul{
 
@@ -190,9 +195,10 @@ body{
 
 .index_cash_show{
   display: table;
+  width: 100%;
 }
 .index-cash-show-left{
-  width: 200px;
+  width: 12%;
   color: black;
   float: left;
 }
@@ -211,33 +217,44 @@ body{
     padding: 75px 0px 0px 8px;
     li{
       list-style-type: none;
-      width: 180px;
+      width: 100%;
       height: 30px;
       margin: 0px 0px 30px 0px;
       color: #333;
       text-align: left;
-      padding-left: 28px;
       cursor: pointer;
       line-height: 30px;
       font: 14px/30px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+      background-color: #d4d4d4;
+      span{
+        float: right;
+      }
+      a{
+        margin-left: 10%;
+      }
     }
     .active{
       list-style-type: none;
-      width: 180px;
+      width: 100%;
       height: 30px;
       margin: 0px 0px 30px 0px;
-      color: white;
       text-align: left;
-      padding-left: 28px;
       cursor: pointer;
       line-height: 30px;
       font: 14px/30px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+      background-color: #3589f1;
+      a{
+        color: white;
+      }
+      span{
+        color: white;
+      }
     }
   }
 }
 
 .index-cash-show-right{
-  width: 1506px;
+  width: 88%;
   float: left;
   height: 720px;
   overflow: hidden;
@@ -253,10 +270,11 @@ body{
       margin-bottom: 10px;
       text-align: center;
       float: left;
+      width: 32% ;
       img{
         padding:2px;
         border: 1px solid #ccc ;
-        width: 472px;
+        width: 100%;
         height: 340px;
       }
       h4{
@@ -278,15 +296,15 @@ body{
 }
 .index-partner-tit{
   float: left;
-  width: 150px;
+  width: 17%;
   margin: 10px 5px 10px 0;
   .index-partner-tit-t{
     text-align: center;
-    width: 150px;
+    width: 100%;
     height: 150px;
     background-color: #00006e;
     img{
-      width: 150px;
+      width: 100%;
       height: 150px;
     }
 
@@ -307,7 +325,7 @@ body{
 
 .index-partner-cont{
   float: left;
-  width: 1550px;
+  width: 82%;
   ul{
     li{
       width: 150px;
@@ -319,3 +337,4 @@ body{
     }
   }
 }
+

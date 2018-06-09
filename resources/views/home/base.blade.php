@@ -37,11 +37,6 @@
 
     <link href="{{url('css/Style.css')}}" rel="stylesheet">
     <style type="text/css">
-        .index-cash-show-left-ul > ul > .active{
-            background: url('http://www.hainanhecai.com/base/border/213/images/bar.gif') 0px 0px no-repeat !important;
-        }
-    </style>
-    <style type="text/css">
         .clear{ clear:both;}
         body{ margin:0px; padding:0px; font-size:12px;background-color: white}
         ul,li{ list-style:none;}
@@ -58,9 +53,11 @@
     </style>
 </head>
 <body>
+<div class="changyi-index">
 @include('home.header')
-@yield('content')
+    @yield('content')
 @include('home.footer')
+</div>
 <!-- jQuery -->
 <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{url('js/floatingcarousel.min.js')}}"></script>

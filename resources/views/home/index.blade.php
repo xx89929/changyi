@@ -37,14 +37,15 @@
 {{--中间--}}
 <div id="content" style="width: 90%; margin: 0px auto;border: 1px dashed black;background-color: white">
     <div class="index_cash_show">
-        <div class="index-cash-show-left" style="background: url({{asset('images/line.gif')}}) 0px 0px no-repeat;">
+        <div class="index-cash-show-left">
             <div class="index-cash-show-left-ul" id="index-cash-show-left-ul">
                 <ul>
                     @foreach($caseType as $ct)
-                    <li style="background: url('http://www.hainanhecai.com/base/border/213/images/bar.gif') 0px -35px no-repeat;"> <!-- #e6e8eb -->
+                    <li> <!-- #e6e8eb -->
                         <a href="{{route('case',['case_type' => $ct->id])}}">
                             {{$ct->type_name}}
                         </a>
+                        <span> 〉 </span>
                     </li>
                     @endforeach
                 </ul>

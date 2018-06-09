@@ -109,7 +109,7 @@ a:hover{color:#C30; text-decoration:underline;}
 
 
 
-.Foot{ width:90%;color:#FFFEFC;background-color:#333333; height:120px; line-height:22px; float:left; font-family:Arial, Helvetica, sans-serif; text-align:center;}
+.Foot{ width:100%;color:#FFFEFC;background-color:#333333; height:120px; line-height:22px; float:left; font-family:Arial, Helvetica, sans-serif; text-align:center;}
 .Foot ul{margin-top:10px;}
 .Foot span{float:right; margin-right:10px;}
 .Foot a:link{color:#FFFEFC; text-decoration:none; font-size:13px;}
@@ -184,7 +184,7 @@ a:hover{color:#C30; text-decoration:underline;}
 .Proa li a:visited{color:#666666; text-decoration:none;font-size:12px;}
 .Proa li a:hover{color:#ff3300; text-decoration:underline;font-size:12px;}
 
-/***ï¿½ï¿½ç‘·ï¿½ï¿½æŒŽï¿½å³°ï¿½***/
+/***ï¿½ï¿½?·ï¿½ï¿½æ??ï¿½å³°ï¿?***/
 .ke-xiang span{float:left;}
 .booking-con{border-top:1px #C8C8C8 solid;border-left:1px #C8C8C8 solid;border-right:1px #C8C8C8 solid;background:#F5F5F5; width:97%; margin-top:9px;}
 .booking-con li{border-bottom:1px #C8C8C8 solid;padding:5px 0px 5px 10px;}
