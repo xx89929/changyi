@@ -160,8 +160,10 @@ body {
     font-size: 20px;
     font-weight: bold; }
 
+.index-cash-show-left-ul img {
+  width: 100%; }
 .index-cash-show-left-ul ul {
-  padding: 75px 0px 0px 8px; }
+  margin-left: 1%; }
   .index-cash-show-left-ul ul li {
     list-style-type: none;
     width: 100%;
