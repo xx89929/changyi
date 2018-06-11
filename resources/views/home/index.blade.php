@@ -39,6 +39,7 @@
     <div class="index_cash_show">
         <div class="index-cash-show-left">
             <div class="index-cash-show-left-ul" id="index-cash-show-left-ul">
+                <img src="{{url('asset/images/cgal.png')}}">
                 <ul>
                     @foreach($caseType as $ct)
                     <li> <!-- #e6e8eb -->
@@ -76,7 +77,7 @@
 {{--中间end--}}
 
 <div class="bottom-img">
-    <img width="100%" height="140px" src="{{url('images/bottom-img.jpg')}}">
+    <img width="100%" src="{{url('asset/images/company_jj.png')}}">
 </div>
 
 

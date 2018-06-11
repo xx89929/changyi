@@ -87,13 +87,13 @@
     <div class="silder-scroll" >
         <div class="silder-main">
             <div class="silder-main-img">
-                <img src="{{url('asset/images/pic1.jpg')}}" alt="">
+                <img src="{{url('asset/images/banner1.png')}}" alt="">
             </div>
             <div class="silder-main-img">
-                <img src="{{url('asset/images/pic2.jpg')}}" alt="">
+                <img src="{{url('asset/images/banner2.png')}}" alt="">
             </div>
             <div class="silder-main-img">
-                <img src="{{url('asset/images/pic3.jpg')}}" alt="">
+                <img src="{{url('asset/images/banner3.png')}}" alt="">
             </div>
         </div>
     </div>
