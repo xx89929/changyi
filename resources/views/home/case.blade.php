@@ -40,8 +40,11 @@
 			<div class="tup" >
 					<ul>
 						@foreach($case as $ca)
-							<li><img style="width:100%;height:250px;" src="{{$qshow.$ca->case_img}}">
-								<p><a href="" class="asd">{{$ca->case_title}} </a></p>
+							<li>
+								<a href="{{route('case.info',['id' => $ca->id])}}" class="asd">
+								<img style="width:100%;height:250px;" src="{{$qshow.$ca->case_img}}">
+								<p>{{$ca->case_title}}</p>
+								</a>
 							</li>
 						@endforeach
 					</ul>
