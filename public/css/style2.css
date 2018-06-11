@@ -71,12 +71,12 @@ body {
   .company-title h1 {
     color: red;
     font-weight: bold;
-    font-size: 25px; }
+    font-size: 28px; }
   .company-title p {
     font-weight: bold;
     margin-top: 8px;
     color: black;
-    font-size: 14px; }
+    font-size: 16px; }
 
 .header-right {
   margin-left: 17%;
