@@ -49,7 +49,7 @@ body {
 
 .logo-box {
   float: left;
-  width: 21%;
+  width: 350px;
   margin: 0px 0px 0px 80px;
   border-right: 1px solid black; }
   .logo-box img {
@@ -63,9 +63,9 @@ body {
   border-bottom: 1px dashed #999; }
 
 .company-title {
-  width: 30%;
+  width: 24%;
   float: left;
-  padding-top: 16px;
+  padding-top: 11px;
   margin-left: 2%; }
   .company-title h1 {
     color: red;
@@ -78,8 +78,8 @@ body {
     font-size: 16px; }
 
 .header-right {
-  margin-left: 17%;
-  float: left;
+  margin-right: 9%;
+  float: right;
   padding-top: 8px; }
 
 .header-right-img {
@@ -100,7 +100,8 @@ body {
     font-size: 26px; }
   .header-right-content h1 {
     font-weight: bold;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-size: 33px; }
 
 .nav {
   width: 90%;
