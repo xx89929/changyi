@@ -243,6 +243,19 @@
 	cursor: pointer;
 	background-color: #e4e4e4;
 }
+.lianx{
+	width: 50%;
+
+}
+.lianx img {
+	width: 100%;
+}
+.wenzi {
+	width: 100%;
+	font-size: 20px;
+	color:#333333;
+	padding: 20px  0px ;
+}
 .silder-ctrl-con.active>span{
 	background-color: #7bbedf;
 }
