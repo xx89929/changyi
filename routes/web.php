@@ -24,4 +24,5 @@ Route::namespace('Home')->group(function (){
     Route::get('partner','PartnerController@index')->name('partner');
     Route::get('about','AboutController@index')->name('about');
     Route::get('jobs','JobsController@index')->name('jobs');
+    Route::get('news','NewsController@index')->name('news');
 });

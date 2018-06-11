@@ -46,7 +46,7 @@
                 </a>
             </li>
             <li >
-                <a href="{{route('jobs')}}">
+                <a href="{{route('news')}}">
                     <h2>新闻中心</h2>
                 </a>
             </li>

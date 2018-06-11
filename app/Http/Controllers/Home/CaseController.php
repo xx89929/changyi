@@ -26,8 +26,9 @@ class CaseController extends BaseController
         if($request->get('id')){
             $id = $request->get('id');
             $res = CaseModel::find($id);
+            return view('home.case-info',['case_info' => $res]);
         }
-        return view('home.case-info');
+
 
     }
 }
