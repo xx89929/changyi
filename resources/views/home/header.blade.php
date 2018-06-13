@@ -86,15 +86,11 @@
 <div class="js-silder">
     <div class="silder-scroll" >
         <div class="silder-main">
+            @foreach($banner as $b)
             <div class="silder-main-img">
-                <img src="{{url('asset/images/banner1.png')}}" alt="">
+                <img src="{{$qshow.$b->b_img}}" alt="">
             </div>
-            <div class="silder-main-img">
-                <img src="{{url('asset/images/banner2.png')}}" alt="">
-            </div>
-            <div class="silder-main-img">
-                <img src="{{url('asset/images/banner3.png')}}" alt="">
-            </div>
+            @endforeach
         </div>
     </div>
 </div>

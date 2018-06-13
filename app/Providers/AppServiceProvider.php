@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\BannerModel;
 use App\Models\CaseModel;
 use App\Models\CaseTypeModel;
 use App\Models\WebSetModel;
@@ -25,6 +26,9 @@ class AppServiceProvider extends ServiceProvider
         $case = CaseModel::all();
         $bannerCase = $case->take(12)->all();
         View::share('bannerCase' , $bannerCase);
+
+        $banner = BannerModel::all();
+        View::share('banner' , $banner);
 
         $webSet = WebSetModel::first();
         View::share('webset' , $webSet);
