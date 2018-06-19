@@ -15,7 +15,7 @@ Route::group([
     $router->resource('banner/set','BannerControllers');
     $router->resource('about/set','WebSetController');
     $router->resource('partner/set','PartnerController');
-    $router->resource('contact/set','WebSetController');
+    $router->resource('web/set','WebSetController');
     $router->resource('jobs/set','JobsController');
     $router->resource('contact/set','ContactController');
     $router->resource('news/list','NewsController');
