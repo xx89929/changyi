@@ -25,7 +25,7 @@
 		<div class=xiabu>
 			<h4>
 				电话：{{$webset->tel}}<br/>
-				联系人：李先生<br/>
+				联系人：{{$webset->contacter}}<br/>
 				手机：{{$webset->phone}}<br/>
 				公司地址：{{$webset->address}}
 			</h4>
