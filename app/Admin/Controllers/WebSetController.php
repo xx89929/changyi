@@ -75,6 +75,7 @@ class WebSetController extends Controller
 
             $grid->id('ID')->sortable();
             $grid->phone('联系手机');
+            $grid->contacter('联系人');
             $grid->address('联系地址');
             $grid->tel('联系电话');
         });
@@ -90,6 +91,7 @@ class WebSetController extends Controller
         return Admin::form(WebSetModel::class, function (Form $form) {
             $form->display('id', 'ID');
             $form->text('phone', '联系手机');
+            $form->text('contacter', '联系人');
             $form->text('address', '联系地址');
             $form->text('tel', '联系电话');
             $form->editor('intro', '公司简介');
