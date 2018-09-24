@@ -9,7 +9,8 @@ use App\Http\Controllers\Controller;
 class NewsController extends Controller
 {
     public function index(){
-        $news = NewsModel::find(1);
+        $news = NewsModel::first();
+
         return view('home.news',['news' => $news]);
     }
 }
