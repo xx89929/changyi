@@ -260,4 +260,12 @@
 	background-color: #7bbedf;
 }
 
-<!-- 横幅CSS结束 -->
+
+.news-list-warp {
+	padding:20px;
+}
+
+.news-list-warp ul li {
+    padding:10px 0px;
+    border-bottom:1px dashed #ddd ;
+}

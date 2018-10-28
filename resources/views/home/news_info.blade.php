@@ -28,19 +28,13 @@
 
         <div class=youbu>
             <div class=shangm>
-                <p>新闻中心</p>
+                <p>新闻中心>{{$news->title}}</p>
             </div>
-            <div class="news-list-warp">
-                <ul>
-                    @foreach($news as $n)
-                        <li>
-                        <a href="{{route('news.info',['id' => $n->id])}}">
-                            <div class="news-title"><span><strong>{{$n->title}}</strong></span></div>
-                            <div class="news-des"><span>{{$n->des}}</span></div>
-                        </a>
-                        </li>
-                    @endforeach
-                </ul>
+            <div class="xiam">
+                <div class="lianxi">
+                    {!! $news->content !!}
+                </div>
+
             </div>
         </div>
     </div>
