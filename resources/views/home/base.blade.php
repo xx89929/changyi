@@ -3,9 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>海口广告公司_海口广告制作_海南广告公司-海口长艺广告有限公司</title>
-    <meta name="keywords" content="海口广告公司,海口广告制作,海南广告公司,海口长艺广告有限公司">
-    <meta name="description" content="海口长艺广告有限公司专业从事大中型户外广告制作、喷绘写真、标识标牌、钢结构工程、亮化工程、庆典活动及印刷制品，是海南省海口市专业的广告公司">
+    <title>海口长艺广告_专业从事海南广告制作</title>
+    <meta name="keywords" content="海南广告制作,海南广告,海口广告,海口广告制作">
+    <meta name="description" content="海南省海口长艺广告有限公司专业从事大中型户外广告制作、亮化工程、庆典活动及印刷制品等。公司一直本着'求真务实'的公司文化，立足客户市场，致力于成为国际旅游岛最具活力、成长性的广告制作及传媒的后起之秀。">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="http://www.changemedia.com.cn/css.css" rel="stylesheet" type="text/css" />
     <link href="{{url('css/common.css')}}" rel="stylesheet" type="text/css" />
