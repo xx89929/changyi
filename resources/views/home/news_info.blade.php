@@ -1,6 +1,6 @@
 @extends('home.base')
 @section('title')
-    {{$news->title}}
+    {{$news->title}}-海口长艺广告
 @endsection
 @section('content')
     <!--关于长艺子页面开始-->

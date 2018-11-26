@@ -1,4 +1,7 @@
 @extends('home.base')
+@section('title')
+	关于我们-海口长艺广告
+@endsection
 @section('content')
 	<!--关于长艺子页面开始-->
 <div class="about_warp">

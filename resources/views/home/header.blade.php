@@ -27,7 +27,7 @@
             </li>
             <li >
                 <a href="{{route('about')}}">
-                    <h2>关于长艺</h2>
+                    <h2>长艺广告</h2>
                 </a>
             </li>
             <li >

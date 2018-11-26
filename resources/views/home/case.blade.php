@@ -1,4 +1,7 @@
 @extends('home.base')
+@section('title')
+	成功案例-海口长艺广告
+@endsection
 @section('content')
 <div class="about_warp">
 	<div class="shangbuk ">
