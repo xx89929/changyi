@@ -19,6 +19,7 @@ class IndexController extends BaseController
         $caseType = CaseTypeModel::all();
         $case = CaseModel::all();
         $this->pageTitle = 'index';
-        return view('home.index',['pageTitle' => $this->pageTitle,'caseType' => $caseType,'case' => $case,'partner' => $partner,'contact' => $contact]);
+        $seoRs = $this->seoRs;
+        return view('home.index',['pageTitle' => $this->pageTitle,'caseType' => $caseType,'case' => $case,'partner' => $partner,'contact' => $contact,'seoRs' => $seoRs]);
     }
 }

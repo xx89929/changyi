@@ -19,5 +19,6 @@ Route::group([
     $router->resource('jobs/set','JobsController');
     $router->resource('contact/set','ContactController');
     $router->resource('news/list','NewsController');
+    $router->resource('seo','SeoTabelController');
 
 });

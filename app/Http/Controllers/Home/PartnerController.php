@@ -12,6 +12,7 @@ class PartnerController extends BaseController
     public function index(){
         $partner = PartnerModel::all();
         $this->pageTitle = 'partner';
-        return view('home.partner',['pageTitle' => $this->pageTitle,'partner' => $partner]);
+        $seoRs = $this->seoRs;
+        return view('home.partner',['pageTitle' => $this->pageTitle,'partner' => $partner,'seoRs' => $seoRs]);
     }
 }

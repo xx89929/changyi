@@ -6,8 +6,8 @@
     </ul>
 
     <div class="foot_jc">
-        <a href="http://www.haikou.cyberpolice.cn" target="_blank"><img src="http://www.hnyxgg.com/images/gangting.gif" border="0px;"></a>
-        <a href="http://www.haikou.cyberpolice.cn" target="_blank" style="margin-left:5px; display:inline;"><img src="http://www.hnyxgg.com/images/jingcha.gif" border="0px;"></a>
+        <a href="http://www.haikou.cyberpolice.cn" target="_blank"><img src="http://www.hnyxgg.com/images/gangting.gif" border="0px;" alt="{{$seoRs->imgseo}}"></a>
+        <a href="http://www.haikou.cyberpolice.cn" target="_blank" style="margin-left:5px; display:inline;"><img src="http://www.hnyxgg.com/images/jingcha.gif" border="0px;" alt="{{$seoRs->imgseo}}"></a>
     </div>
 
 </div>

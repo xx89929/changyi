@@ -34,7 +34,7 @@
             </div>
             <div class="xiam">
                 <div class="lianx">
-                   <img src="{{$qshow.$case_info->case_img}}" >
+                   <img src="{{$qshow.$case_info->case_img}}" alt="{{$seoRs->imgseo}}" >
                 </div>
                 <div class="wenzi">
                     {!! $case_info->case_content !!}

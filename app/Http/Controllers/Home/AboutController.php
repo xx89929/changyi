@@ -15,6 +15,7 @@ class AboutController extends BaseController
         $this->pageTitle = 'about';
         $aboutUs = WebSetModel::first();
         $newCase = CaseModel::take(6)->orderBy('id','desc')->get();
-        return view('home.about',['pageTitle' => $this->pageTitle,'aboutUs' => $aboutUs,'newCase' => $newCase]);
+        $seoRs = $this->seoRs;
+        return view('home.about',['pageTitle' => $this->pageTitle,'aboutUs' => $aboutUs,'newCase' => $newCase,'seoRs' => $seoRs]);
     }
 }

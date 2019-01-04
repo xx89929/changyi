@@ -13,6 +13,7 @@ class JobsController extends BaseController
     public function index(){
         $this->pageTitle = 'jobs';
         $jobs = JobsModel::first();
-        return view('home.jobs',['pageTitle' => $this->pageTitle,'jobs' => $jobs]);
+        $seoRs = $this->seoRs;
+        return view('home.jobs',['pageTitle' => $this->pageTitle,'jobs' => $jobs,'seoRs' => $seoRs]);
     }
 }

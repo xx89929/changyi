@@ -36,7 +36,7 @@
 			<div class="tup1" >
 				<ul>
 					@foreach($partner as $pt)
-					<li><img  style="width:100%;height: 150px;" src="{{$qshow.$pt->partner_img}}">
+					<li><img  style="width:100%;height: 150px;" src="{{$qshow.$pt->partner_img}}" alt="{{$seoRs->imgseo}}">
 						
 					</li>
 					@endforeach

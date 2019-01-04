@@ -1,6 +1,6 @@
 <div class="header-warp">
     <div class="logo-box">
-        <img src="{{url('asset/images/logo.png')}}">
+        <img src="{{url('asset/images/logo.png')}}" alt="{{$seoRs->imgseo}}">
     </div>
     <div class="company-title">
         <h1>创海南广告行业领先品牌</h1>
@@ -88,7 +88,7 @@
         <div class="silder-main">
             @foreach($banner as $b)
             <div class="silder-main-img">
-                <img src="{{$qshow.$b->b_img}}" alt="">
+                <img src="{{$qshow.$b->b_img}}" alt="{{$seoRs->imgseo}}">
             </div>
             @endforeach
         </div>

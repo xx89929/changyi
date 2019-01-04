@@ -15,14 +15,14 @@
 <div class="index-partner-warp">
     <div class="index-partner-tit">
         <div class="index-partner-tit-t">
-            <img src="{{url('images/partner_img.jpg')}}">
+            <img src="{{url('images/partner_img.jpg')}}" alt="{{$seoRs->imgseo}}">
         </div>
     </div>
     <div class="carousel index-partner-cont" id="carousel-responsive">
         <ul>
             @foreach($partner as $pn)
                 <li>
-                    <img src="{{$qshow.$pn->partner_img}}">
+                    <img src="{{$qshow.$pn->partner_img}}" alt="{{$seoRs->imgseo}}">
                 </li>
             @endforeach
         </ul>
@@ -39,7 +39,7 @@
     <div class="index_cash_show">
         <div class="index-cash-show-left">
             <div class="index-cash-show-left-ul" id="index-cash-show-left-ul">
-                <img src="{{url('asset/images/cgal.png')}}">
+                <img src="{{url('asset/images/cgal.png')}}" alt="{{$seoRs->imgseo}}">
                 <ul>
                     @foreach($caseType as $ct)
                     <li> <!-- #e6e8eb -->
@@ -60,7 +60,7 @@
                         @if($cs->case_type == $ct->id)
                         <li>
                             <a href="{{route('case.info',['id' => $cs->id])}}">
-                                <img src="{{$qshow.$cs->case_img}}">
+                                <img src="{{$qshow.$cs->case_img}}" alt="{{$seoRs->imgseo}}">
                                 <h4><a>@if(empty($cs->case_title)) 未定义 @else {{$cs->case_title}} @endif</a></h4>
                             </a>
 
@@ -77,7 +77,7 @@
 {{--中间end--}}
 
 <div class="bottom-img">
-    <img width="100%" src="{{url('asset/images/company_jj.png')}}">
+    <img width="100%" src="{{url('asset/images/company_jj.png')}}" alt="{{$seoRs->imgseo}}">
 </div>
 
 

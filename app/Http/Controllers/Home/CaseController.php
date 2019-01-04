@@ -18,7 +18,8 @@ class CaseController extends BaseController
         }
         $caseType = CaseTypeModel::all();
         $this->pageTitle = 'case';
-        return view('home.case',['pageTitle' => $this->pageTitle,'case' => $case,'caseType' => $caseType]);
+        $seoRs = $this->seoRs;
+        return view('home.case',['pageTitle' => $this->pageTitle,'case' => $case,'caseType' => $caseType,'seoRs' => $seoRs]);
     }
 
 
@@ -26,7 +27,8 @@ class CaseController extends BaseController
         if($request->get('id')){
             $id = $request->get('id');
             $res = CaseModel::find($id);
-            return view('home.case-info',['case_info' => $res]);
+            $seoRs = $this->seoRs;
+            return view('home.case-info',['case_info' => $res,'seoRs' => $seoRs]);
         }
 
 

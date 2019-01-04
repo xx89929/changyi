@@ -45,7 +45,7 @@
 						@foreach($case as $ca)
 							<li>
 								<a href="{{route('case.info',['id' => $ca->id])}}" class="asd">
-								<img style="width:100%;height:250px;" src="{{$qshow.$ca->case_img}}">
+								<img style="width:100%;height:250px;" src="{{$qshow.$ca->case_img}}" alt="{{$seoRs->imgseo}}">
 								<p>{{$ca->case_title}}</p>
 								</a>
 							</li>

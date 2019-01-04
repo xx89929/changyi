@@ -14,6 +14,7 @@ class ContactController extends BaseController
 
         $this->pageTitle = 'contact';
         $contact = ContactModel::first();
-        return view('home.contact',['pageTitle' => $this->pageTitle,'contact' => $contact]);
+        $seoRs = $this->seoRs;
+        return view('home.contact',['pageTitle' => $this->pageTitle,'contact' => $contact,'seoRs' => $seoRs]);
     }
 }
