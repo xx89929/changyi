@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Home;
 
+use App\Http\Controllers\BaseController;
 use App\Models\NewsModel;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class NewsController extends Controller
+class NewsController extends BaseController
 {
     public function index()
     {
