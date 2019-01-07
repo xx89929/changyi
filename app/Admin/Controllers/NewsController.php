@@ -93,7 +93,7 @@ class NewsController extends Controller
             $form->text('title','新闻标题');
             $form->text('des','新闻描述');
             $form->image('img','新闻图片')->uniqueName()->move('news')->resize(360,350);
-            $form->editor('content','新闻内容');
+            $form->ueditor('content','新闻内容');
 
             $form->display('created_at', 'Created At');
             $form->display('updated_at', 'Updated At');
